@@ -1,0 +1,18 @@
+PartsAppBackend/venv/
+PartsAppBackend/__pycache__/
+# Firebase credentials
+serviceAccountKey.json
+**/serviceAccountKey.json
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+*.pyc
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
